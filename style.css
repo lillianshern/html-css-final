@@ -1,0 +1,66 @@
+/* remove default setting */
+* {
+    padding: 0;
+    margin: 0;
+}
+/* ash-livia-1 code */
+.grid-containerl {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "itemm2 itemm1 itemm1 itemm1"
+      "itemm2 itemm3 itemm3 itemm3"
+      "itemm2 itemm3 itemm3 itemm3"
+      "itemm2 itemm3 itemm3 itemm3";
+}
+.itemm1 {
+    background-color:rgb(250, 219, 133);
+    grid-area: itemm1;
+    display: flex;
+}
+.itemm1 > div {
+    width: 50%;
+    display: flex;
+}
+.flexbox-containerf2{flex-direction: row-reverse;}
+.color1{
+    background: #ead1dcff;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.itemm2 {
+    background-color:darkblue;
+    color: white;
+    grid-area: itemm2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.itemm2 div {
+    margin: 10px;
+    width: 60%;
+}
+.color2 {
+    height: 50%;
+    text-align: center;
+}
+.itemm3 {
+    background-color: rgb(89, 119, 253);
+    grid-area: itemm3;
+    height: 100vh;
+}
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rows div{
+    height: 50px;
+    margin: 20px;
+    background: #cfe2f3ff;
+}
+.color3-1 {width: 70%;}
+.color3-2 {width: 25%;}
+.color3-3 {width: 25%;}
