@@ -49,9 +49,13 @@
 }
 .sign-in {
     background-color: white;
-    width: 100px;
-    height: 200px;
-    border-radius: 40px;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+.ethan-img-center {
+    display: flex;
+    justify-content: center;
 }
 /* ash-livia-1 code */
 .grid-containerl {
