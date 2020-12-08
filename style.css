@@ -2,6 +2,56 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Arial;
+}
+/* ethan-jessie-1 code */
+.header-ethan{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.left-ethan {
+    display: flex;
+    align-items: center;
+    color: #1B7092;
+}
+.left-ethan > p {
+    padding-left: 5px;
+    font-size: 30px;
+}
+.right-ethan{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.right-ethan > p {
+    padding-right: 8px;
+    font-size: 23px;
+}
+.createAccount {
+    display: flex;
+    height: 33px;
+    width: 200px;
+    background-color: #1B7092;
+    border-radius: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.body-ethan {
+    display: flex;
+    background-color: #a9d1e2;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in {
+    background-color: white;
+    width: 100px;
+    height: 200px;
+    border-radius: 40px;
 }
 /* ash-livia-1 code */
 .grid-containerl {
