@@ -46,16 +46,42 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .sign-in {
     background-color: white;
-    width: 500px;
+    width: 400px;
     height: 400px;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sign-in > p {
+    font-size: 40px;
+    color: #1B7092;
+    margin-top: 60px;
 }
 .ethan-img-center {
     display: flex;
     justify-content: center;
+    background-color: #a9d1e2;
+    margin-bottom: -37px;
+    z-index: 2;
+    border-radius: 50px;
+}
+.input-sign-in-ethan {
+    background-color: #a9d1e2;
+    height: 45px;
+    width: 300px;
+    margin: 35px 15px 15px 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.input-sign-in-label-ethan {
+    border: 1px solid black;
+    height: 20px;
+    width: 100px;
 }
 /* ash-livia-1 code */
 .grid-containerl {
