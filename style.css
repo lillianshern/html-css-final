@@ -74,14 +74,22 @@
     background-color: #a9d1e2;
     height: 45px;
     width: 300px;
-    margin: 35px 15px 15px 15px;
+    margin: 0px 15px 15px 15px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 .input-sign-in-label-ethan {
     border: 1px solid black;
     height: 20px;
-    width: 100px;
+    width: 90px;
+    margin-top: 35px;
+    background-color: #60a7c5;
+    border-top-right-radius: 20px;
+    color: aliceblue;
+    padding: 5px;
+}
+#shorter {
+    width: 50px;
 }
 /* ash-livia-1 code */
 .grid-containerl {
