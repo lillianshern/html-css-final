@@ -78,19 +78,63 @@
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-.input-sign-in-label-ethan {
-    border: 1px solid black;
-    height: 20px;
-    width: 90px;
+.input-sign-in-label-ethan-email {
+    height: 17px;
+    width: 55px;
     margin-top: 35px;
     background-color: #60a7c5;
-    border-top-right-radius: 20px;
+    border-top-right-radius: 15px;
     color: aliceblue;
     padding: 5px;
 }
-#shorter {
-    width: 50px;
+.input-sign-in-label-ethan-pass {
+    height: 17px;
+    width: 85px;
+    margin-top: 25px;
+    background-color: #60a7c5;
+    border-top-right-radius: 15px;
+    color: aliceblue;
+    padding: 5px;
 }
+.sign-in > .input-sign-in-label-ethan-email {
+    display: flex;
+    justify-content: left;
+}
+.sign-in > .input-sign-in-label-ethan-pass {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* ethan-jessie-2 code */
+.page-ethan{
+    display: flex;
+}
+.nav-ethan {
+    border: 1px solid #1B7092;
+    width: 23%;
+    height: 100vh;
+    color: #1B7092;
+    font-size: 28px;
+}
+.list-for-students {
+    margin: 20px;
+}
+.schedule-ethan {
+    display: flex;
+    width: 77%;
+    height: 100vh;
+    background-color: #60a7c5;
+    border: 1px  solid black;
+}
+.schedule-title {
+    color: white;
+    font-size: 70px;
+}
+.weekday {
+    color: white;
+}
+
+
 /* ash-livia-1 code */
 .grid-containerl {
     display: grid;
