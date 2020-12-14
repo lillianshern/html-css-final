@@ -7,8 +7,10 @@
 /* ethan-jessie-1 code */
 .header-ethan{
     display: flex;
+    height: 10vh;
     justify-content: space-between;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .left-ethan {
     display: flex;
@@ -43,7 +45,7 @@
     display: flex;
     background-color: #a9d1e2;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -82,6 +84,7 @@
     height: 17px;
     width: 55px;
     margin-top: 35px;
+    margin-right: 235px;
     background-color: #60a7c5;
     border-top-right-radius: 15px;
     color: aliceblue;
@@ -91,6 +94,7 @@
     height: 17px;
     width: 85px;
     margin-top: 25px;
+    margin-right: 205px;
     background-color: #60a7c5;
     border-top-right-radius: 15px;
     color: aliceblue;
@@ -112,7 +116,7 @@
 .nav-ethan {
     border: 1px solid #1B7092;
     width: 23%;
-    height: 100vh;
+    height: 90vh;
     color: #1B7092;
     font-size: 28px;
 }
@@ -122,9 +126,11 @@
 .schedule-ethan {
     display: flex;
     width: 77%;
-    height: 100vh;
+    height: 90vh;
     background-color: #60a7c5;
     border: 1px  solid black;
+    flex-direction: column;
+    align-items: center;
 }
 .schedule-title {
     color: white;
@@ -132,8 +138,18 @@
 }
 .weekday {
     color: white;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
+.courses > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
 
 /* ash-livia-1 code */
 .grid-containerl {
