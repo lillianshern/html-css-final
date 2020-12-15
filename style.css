@@ -127,30 +127,77 @@
     display: flex;
     width: 77%;
     height: 90vh;
-    background-color: #60a7c5;
-    border: 1px  solid black;
+    background-color: #a9d1e2;
     flex-direction: column;
     align-items: center;
 }
 .schedule-title {
     color: white;
-    font-size: 70px;
+    font-size: 60px;
+    margin: 20px;
 }
 .weekday {
-    color: white;
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: white;
+    height: 513px;
 }
-
+.monday {
+    color: #1B7092;
+    text-align: center;
+    height: 450px;
+    width: 150px;
+}
+.tuesday {
+    color: #1B7092;
+    text-align: center;
+    height: 450px;
+    width: 150px;
+}
+.friday {
+    color: #1B7092;
+    text-align: center;
+    height: 450px;
+    width: 150px;
+}
+.empty {
+    background-color: #a9d1e2;
+    width: 30px;
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border-bottom: 2px solid #1B7092;
+    margin-bottom: 10px;
+    height: 120px;
+}
+.courses-topic {
+    display: flex;
+    background-color: #1B7092;
+    color: white;
+    height: 50px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
 .courses > div {
     background-color: #f1f1f1;
     width: 100px;
-    margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
 }
-
+.time {margin-bottom: 20px;}
+.courses {font-size: 24px;}
+.sign-out {
+    display: flex;
+    color: #1B7092;
+    margin-top: 150px;
+    margin-left: 20px;
+}
 /* ash-livia-1 code */
 .grid-containerl {
     display: grid;
