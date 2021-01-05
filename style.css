@@ -543,6 +543,11 @@
   width: 20vw;
   background-color: #091868;
 }
+.lists-for-ashlivia-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .header-ashlivia-1{
   background-color: #ffc83b;
   height: 16vh;
@@ -610,7 +615,7 @@
   color: white;
   text-decoration: underline;
   align-content: center;
-  margin: 55px;
+  margin: 36px;
 }
 .attendance-ashlivia-1{
   color: white;
@@ -666,4 +671,100 @@
 }
 .scroll-ashlivia-1 > img {
   margin-top: 34px;
+}
+/* ashley-livia-2 code */
+.contacts-ashlivia-2{
+  margin-top: 40px;
+}
+.people-ashlivia-2 {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.people-ashlivia-2 > a {
+  margin-left: 15px;
+  font-size: 16px;
+}
+.chatbox-ashlivia-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+.topusername-ashlivia-2{
+  border-top: 5px solid #091868;
+  border-left: 5px solid #091868;
+  border-right: 5px solid #091868;
+  height: 75px;
+  width: 670px;
+}
+.chatroom-ashlivia-2{
+  border: 5px solid #091868;
+  height: 390px;
+  width: 670px;
+}
+.scroll-ashlivia-2 {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #091868;
+  background-color: #091868;
+  height: 150px;
+  width: 25px;
+  margin-top: 200px;
+  margin-left: 71px;
+}
+.scroll-ashlivia-2 > img {
+  margin-top: 59px;
+}
+.message-ashlivia-2 {
+  display: flex;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #091868;
+  background-color: #091868;
+  color: white;
+}
+.right-chat-ashlivia-2 {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+.message-ashlivia-2 > p{
+  margin: 10px;
+  display: inline-block;
+}
+.left-chat-ashlivia-2 {
+  display: flex;
+  margin: 20px;
+}
+.bottom-icons-ashlivia-2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+.apple-ashlivia-2 {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-left: 15px;
+}
+.livia-ashlivia-2 {
+  margin-right: 15px;
+}
+.input-textbox-ashlivia-2 {
+  background-color: #091868;
+  color: #054cbf;
+  height: 40px;
+  width: 280px;
+  border-radius: 20px;
+}
+.input-textbox-ashlivia-2 > p {
+  margin: 10px;
+}
+.arrange-ashlivia-2 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
