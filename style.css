@@ -361,13 +361,27 @@
   margin-top: 30px;
 }
 
-/* ping-yusun-2 */
+/* ping-yusun-4 */
 .header-ping-yusun-4{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   width: 100vw;
   height: 10vh;
+}
+.three-lines-ping {
+  margin-top: 8px;
+}
+.one-ping-4{
+  height: 6px;
+  width: 45px;
+  border: 2px solid black;
+  background-color: gainsboro;
+  border-radius: 20px;
+  margin: 8px;
+}
+.icon-ping-top {
+  margin: 8px;
 }
 .whole-ping-4 {
   display: flex;
@@ -436,6 +450,7 @@
   transform: rotateZ(90deg);
   margin-top: 100px;
   justify-content: space-evenly;
+  margin-left: -20px;
 }
 .mid-ping-4{
   display: flex;
@@ -474,6 +489,27 @@
 }
 .classes-ping {
   margin-top: 80px;
+}
+.colortag-ping-bluish {
+  background-color: #73e0ce;
+  border-radius: 20px;
+  height: 5px;
+  width: 15px;
+}
+.colortag-ping-reddish {
+  background-color: #FF6F6F;
+  border-radius: 20px;
+  height: 5px;
+  width: 15px;
+}
+.classes-ping > .course-name{
+  display: inline-block;
+}
+.classes-ping > .colortag-ping-bluish{
+  display: inline-block;
+}
+.classes-ping > .colortag-ping-reddish{
+  display: inline-block;
 }
 .course-name {
   margin-top: 27px;
