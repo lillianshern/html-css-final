@@ -202,76 +202,6 @@
   margin-top: 150px;
   margin-left: 20px;
 }
-/* ash-livia-1 code */
-.grid-containerl {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    "itemm2 itemm1 itemm1 itemm1"
-    "itemm2 itemm3 itemm3 itemm3"
-    "itemm2 itemm3 itemm3 itemm3"
-    "itemm2 itemm3 itemm3 itemm3";
-}
-.itemm1 {
-  background-color: rgb(250, 219, 133);
-  grid-area: itemm1;
-  display: flex;
-}
-.itemm1 > div {
-  width: 50%;
-  display: flex;
-}
-.flexbox-containerf2 {
-  flex-direction: row-reverse;
-}
-.color1 {
-  background: #ead1dcff;
-  height: 50px;
-  width: 50px;
-  margin: 20px;
-}
-.itemm2 {
-  background-color: darkblue;
-  color: white;
-  grid-area: itemm2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.itemm2 div {
-  margin: 10px;
-  width: 60%;
-}
-.color2 {
-  height: 50%;
-  text-align: center;
-}
-.itemm3 {
-  background-color: rgb(89, 119, 253);
-  grid-area: itemm3;
-  height: 100vh;
-}
-.rows {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.rows div {
-  height: 50px;
-  margin: 20px;
-  background: #cfe2f3ff;
-}
-.color3-1 {
-  width: 70%;
-}
-.color3-2 {
-  width: 25%;
-}
-.color3-3 {
-  width: 25%;
-}
-
 /* ping-yusun-1 */
 .page{
     display: flex;
@@ -601,4 +531,139 @@
 }
 .addsomethings{
   margin-top: 10px;
+}
+
+/* ashley-livia-1 code */
+.whole-ashlivia-1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar-ashlivia-1{
+  height: 100vh;
+  width: 20vw;
+  background-color: #091868;
+}
+.header-ashlivia-1{
+  background-color: #ffc83b;
+  height: 16vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+}
+.header-ashlivia-1 > p{
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+.header-ashlivia-1 > img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+.gpa-ashlivia-1{
+  margin-left: 350px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.body-ashlivia-1{
+  background-color: #054cbf;
+  height: 84vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+}
+.assignments-ashlivia-1{
+  color: white;
+  margin-top: 60px;
+  margin-left: 70px;
+}
+.assignments-ashlivia-1 > a {
+  font-size: 30px;
+}
+.inside-ashlivia-1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.items-ashlivia-1{
+  margin-right: 75px;
+}
+.items-ashlivia-1 > p {
+  margin-top: 15px;
+}
+.grades-ashlivia-1 > p {
+  margin: 15px;
+}
+.seemore-ashlivia-1 {
+  text-decoration: underline;
+  margin-left: 220px;
+}
+.navbar-ashlivia-1 > img {
+  margin-left: 23px;
+  margin-top: 30px;
+}  
+.topics-ashlivia-1 {
+  color: white;
+  text-decoration: underline;
+  align-content: center;
+  margin: 55px;
+}
+.attendance-ashlivia-1{
+  color: white;
+  margin-top: 60px;
+  margin-left: 70px;
+}
+.attendance-ashlivia-1 > a {
+  font-size: 30px;
+}
+.average-ashlivia-1 {
+  border: 3px solid #091868;
+  border-radius: 20px;
+  background-color: #091868;
+  width: 300px;
+  height: 240px;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.average-ashlivia-1 > a{
+  font-size: 170px;
+  color: white;
+  margin-top: 90px;
+  margin-left: 40px;
+}
+.message-teacher-ashlivia-1{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #091868;
+  background-color: #091868;
+  border-radius: 20px;
+  height: 60px;
+  width: 300px;
+  margin-left: 30px;
+  margin-top: 50px;
+  color: white;
+  font-size: 23px;
+}
+.message-teacher-ashlivia-1 > img {
+  margin: 15px;
+}
+.message-teacher-ashlivia-1 > p {
+  margin: 15px;
+}
+.scroll-ashlivia-1 {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #091868;
+  background-color: #091868;
+  height: 100px;
+  width: 25px;
+  margin-top: 200px;
+  margin-left: 220px;
+}
+.scroll-ashlivia-1 > img {
+  margin-top: 34px;
 }
