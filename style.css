@@ -395,20 +395,20 @@
 }
 .left-ping-4 > a { 
   font-size: 35px;
-  margin-left: 60px;
+  margin-left: 120px;
 }
 .left-ping-4 > p { 
   font-size: 18px;
   margin-top: 5px;
   margin-bottom: 40px;
-  margin-left: 60px;
+  margin-left: 120px;
 }
 .cap-ping {
   height: 20px;
   width: 180px;
   border: 3px solid black;
   border-radius: 25px;
-  margin-left: 85px;
+  margin-left: 145px;
 }
 .bottle-ping {
   height: 300px;
@@ -417,7 +417,7 @@
   border-radius: 25px;
   position: relative;
   text-align: center;
-  margin-left: 60px;
+  margin-left: 100px;
 }
 .bottle-ping > img {
   margin-top: 40px;
@@ -572,12 +572,14 @@
 /* ashley-livia-1 code */
 .whole-ashlivia-1{
   display: flex;
-  flex-wrap: wrap;
 }
 .navbar-ashlivia-1{
   height: 100vh;
   width: 20vw;
   background-color: #091868;
+}
+.right-side-ashlivia{
+  width: 50vw;
 }
 .lists-for-ashlivia-1{
   display: flex;
